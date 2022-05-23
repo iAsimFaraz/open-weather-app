@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Open Weather App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div id="root">
+            <h1>Open Weather App</h1>
+            <h3>Please Enter a Location:</h3>
+            <div id="search-component">
+                <input name="location" id="search">
+                <button id="search-button">Search</button>
+            </div>
+        </div>
+        <div id="weather">
+            <h3>Weather:</h3>
+            <p id="location">Location: </p>
+            <p id="description">Description: </p>
+            <p id="temperature">Temperature: </p>
+            <p id="min-temp">Min Temperature: </p>
+            <p id="max-temp">Max Temperature: </p>
+            <p id="humidity">Humidity: </p>
+            <p id="wind-speed">Wind Speed: </p>
+        </div>
+        <script src="./index.js" async defer></script>
+    </body>
+</html>
